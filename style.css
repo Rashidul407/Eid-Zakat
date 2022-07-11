@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+#lets{
+    color: gold;
+}
+
+/* banner section work start */
+
+.banner{
+    
+    /* background-image: linear-gradient(90deg,black,transparent); */
+    background-image: url(./images/cow-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
+    
+}
+
+/* .banner h1, p, a{
+    padding: 32px;
+    color: white;
+    margin-left: 8rem;
+    width: 50%;
+} */
+
+.banner h1{
+    padding: 32px;
+    color: white;
+    margin-left: 8rem;
+    width: 50%;
+    font-size: 60px;
+    padding-top: 18rem;
+
+}
+.pragraph-1{
+    padding: 32px;
+    color: white;
+    margin-left: 8rem;
+    width: 50%;
+    font-size: 18px;
+}
+
+.link{
+    padding: 32px;
+    color: white;
+    margin-left: 8rem;
+    width: 50%;
+    text-decoration: none;
+    background-color: rgb(156, 28, 6);
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-left: 10rem;
+    font-weight: 500;
+    
+    
+}
+
+.link:hover{
+    color: black;
+    background-color:darkkhaki;
+    transition: all 1s;
+    letter-spacing: 1.5px;
+}
+
+/* main-part work start */
+
+.main-part{
+    margin-top: 6rem;
+    width: 70%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 15rem;
+}
+
+.text-sector h1{
+    font-size: 40px;
+}
+
+.text-color{
+    color: rgb(9, 9, 21);
+    font-size: 18px;
+}
+
+.explore{
+    text-decoration: none;
+    background-color: rgb(156, 28, 6);
+    color: beige;
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-left: -.5rem;
+    font-weight: 500;
+  
+}
+
+.explore:hover{
+    color: rgb(4, 32, 33);
+    background-color:blueviolet;
+    letter-spacing: 1px;
+    transition: all 1.2s;
+    box-shadow: 10px 18px 30px khaki;
+}
+
+/* second portion prayer part work start */
+
+.container{
+    display: flex;
+    margin-top: 7rem;
+    
+}
+
+.container-1-1 img{
+    width: 70%;
+   padding-left: 7%;
+   margin-left: 11rem;
+}
+
+.container-1-2{
+    width: 70%;
+    padding-top: 6%;
+    margin-right: 15rem
+}
+
+.explore-1{
+    text-decoration: none;
+    background-color: rgb(234, 44, 10);
+    color: beige;
+    padding: 15px 30px;
+    text-align: center;
+    /* margin-left: -.5rem; */
+    font-weight: 500;
+}
+
+.explore-1:hover{
+    color: black;
+    background-color: cadetblue;
+    letter-spacing: 1.5px;
+    box-shadow: 10px 15px 30px gray;
+    transition: all 1.5s;
+}
+
+.container-2{
+    margin-top: 7rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    width: 50%;
+    align-items: center;
+    margin-left: 25rem;
+    
+}
+
+.container-2 h1{
+    font-size: 45px;
+}
+.container-3{
+    width: 50%;
+    margin-left: 25rem;
+}
+
+.container-3-1{
+    margin-top: 6rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.box-1{
+    display: flex;
+    background-color: lightgreen;
+    gap: 1.5rem;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+.box-1:hover{
+   background-color:teal;
+   box-shadow: 10px 15px 30px gray;
+    transition: all 2s;
+    
+}
+.box-1 img{
+    height: 70px;
+} 
+.box-2{
+    display: flex;
+    background-color: lightgreen;
+    gap: 1.5rem;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+
+.box-2:hover{
+    background-color: cornflowerblue;
+    box-shadow: 10px 15px 30px gray;
+    transition: all 2s;
+}
+.box-2 img{
+    height: 70px;
+} 
+.container-3-2{
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.box-3{
+    display: flex;
+    background-color: lightgreen;
+    gap: 1.5rem;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+.box-3:hover{
+    background-color: #fd746c;
+    box-shadow: 10px 15px 30px gray;
+    transition: all 2s;
+}
+.box-3 img{
+    height: 70px;
+} 
+.box-4{
+    display: flex;
+    background-color: lightgreen;
+    gap: 1.5rem;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+
+.box-4:hover{
+    background-color: khaki;
+    box-shadow: 10px 15px 30px gray;
+    transition: all 2s;
+}
+.box-4 img{
+    height: 70px;
+} 
+
+.container-4{
+    margin-top: 10rem;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+    
+    /* flex-wrap: wrap; */
+}
+
+.container-4-1 img{
+    width: 85%;
+    margin-left: 3rem;
+    border-radius: 15px;
+    height: 350px;
+}
+.container-4-2 img{
+    width: 85%;
+    margin-left: 3rem;
+    border-radius: 15px;
+    height: 350px;
+}
+.container-4-3 img{
+    width: 85%;
+    margin-left: 3rem;
+    border-radius: 15px;
+    height: 350px;
+}
+
+.container-5{
+    margin-top: 7rem;
+    width: 50%;
+    text-align: center;
+    margin-left: 25rem;
+}
+.container-5 h2{
+    font-size: 45px;
+}
+
+/* .container-6{
+    margin-right: 66.5rem;
+    margin-left: 4rem;
+    border: 1px solid black;
+    
+}
+.image-sector{
+    background-size: cover;
+    border-radius: 20px;
+}
+.container-6-1{
+   width: 50%;
+} */
+footer{
+    margin-top: 10rem;
+    background-color: black;
+    color: #fd746c;
+    text-align: center;
+    padding: 80px 20px;
+}
